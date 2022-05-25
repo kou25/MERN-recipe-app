@@ -1,0 +1,200 @@
+.home_section {
+  margin: 3rem;
+  overflow: hidden;
+  height: 80vh;
+}
+.home_section-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_section-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_section-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_backgroundImage-continer {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+}
+.home_tagline {
+  color: chocolate;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 26px;
+}
+.home_text-container > h1 {
+  color: black;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 50px;
+  margin: 25px 0px;
+}
+.home_content {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 400px;
+}
+.home_section-button {
+  margin-top: 20px;
+}
+
+.home_section-button > button {
+  background-color: rgb(230, 146, 87);
+  height: 40px;
+  width: 140px;
+  border: 0px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 9px;
+  animation: 2s ease 0s infinite normal none running drop;
+  transition: all 0.2s ease 0s;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@keyframes drop {
+  0% {
+    box-shadow: rgb(230, 146, 87) 0px 0px 0px 0px;
+  }
+  70% {
+    box-shadow: rgb(214 32 39 / 0%) 0px 0px 0px 10px;
+  }
+  100% {
+    box-shadow: rgb(214 32 39 / 0%) 0px 0px 0px 0px;
+  }
+}
+
+.home-recipe {
+  margin: 3rem;
+  margin-top: 7rem;
+  min-height: 70vh;
+}
+
+.home-recipe-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-recipe-main > h1 {
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 50px;
+  margin-right: 5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.home-recipe-latest {
+  margin: 0 5rem 1rem 3rem;
+  overflow: hidden;
+}
+
+.home-recipe-latest-posts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(230, 146, 87);
+  margin-right: 3rem;
+}
+
+.home-recipe-latest-largePost {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.home-recipe-latest-largePost > img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.home-recipe-latest-othersmall {
+  max-height: 186px;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+.home-recipe h5 {
+  margin: 10px;
+  padding: 0;
+}
+
+.small-card-title {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-recipe-latest-small-cards {
+  width: 100rem;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.home-recipe-latest-small-cards img {
+  height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  object-fit: cover;
+}
+
+.other-card {
+  width: 100%;
+  margin-right: 16px;
+  padding-bottom: 8px;
+}
+
+.other-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 8px;
+  border-radius: 20px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}

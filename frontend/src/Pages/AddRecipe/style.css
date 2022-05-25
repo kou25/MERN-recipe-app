@@ -1,0 +1,57 @@
+.add-container {
+  margin: 3rem;
+  overflow: hidden;
+}
+
+.add-container-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 3rem 0 4rem 0;
+}
+
+.add-container-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-container-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add_backgroundImage-continer {
+  width: 73%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.add-container-form {
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  width: 80%;
+}
+
+.form {
+  margin-top: 1rem;
+}
+
+textarea {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}

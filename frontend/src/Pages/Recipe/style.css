@@ -1,0 +1,53 @@
+.details_section {
+  margin: 3rem;
+  overflow: hidden;
+}
+
+.details_display_wrapper {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  display: flex;
+}
+
+.details_display_wrapper .active {
+  background: rgb(230, 146, 87);
+  color: #fff;
+}
+
+.details_display_wrapper h2 {
+  margin-bottom: 2rem;
+}
+
+.details_display_wrapper ul {
+  margin-top: 2rem;
+}
+
+.details_display_wrapper li {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+}
+
+.details_info {
+  margin-left: 10rem;
+  width: 60%;
+}
+
+button {
+  padding: 1rem 2rem;
+  color: rgb(230, 146, 87);
+  background: #fff;
+  border: 2px solid chocolate;
+  margin-right: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.details-instruction {
+  margin-top: 2rem;
+  width: 60%;
+}
+
+.details-instruction > p {
+  text-align: left;
+  font-size: 16px;
+}

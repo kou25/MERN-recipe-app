@@ -1,0 +1,14 @@
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  background: #fafafa;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.app__container {
+  padding-left: clamp(80px, 10vw, 100px);
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
